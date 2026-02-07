@@ -1,0 +1,36 @@
+# --- Secrets / Local config ---
+.env
+.venv/
+venv/
+env/
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+
+# --- Byte-compiled / optimized / DLL files ---
++*.pyo
++*.pyd
+
+# --- Distribution / packaging ---
++.Python
++build/
++dist/
++*.egg-info/
++.eggs/
+
+# --- Local scripts / artifacts ---
+generate_token.py
+zerodha_api_calls.csv
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
+
+# --- Jupyter ---
+.ipynb_checkpoints/

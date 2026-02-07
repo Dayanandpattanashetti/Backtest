@@ -1,0 +1,20 @@
+# Core language support
+python-dateutil>=2.8.2
+python-dotenv>=1.0.0
+
+# Zerodha API
+kiteconnect>=4.2.0
+
+# Data processing
+polars>=0.20.0
+pandas>=2.0.0
+pyarrow>=14.0.0
+
+# Database
+sqlite-utils>=3.35.0
+
+# UI
+streamlit>=1.30.0
+
+# Plotting (optional but useful)
+matplotlib>=3.7.0
